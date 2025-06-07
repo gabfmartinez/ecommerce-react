@@ -24,12 +24,4 @@ npm run dev
 
 ## Configuración
 
-Agrega tu configuración de Firebase en `firebaseConfig.js`.
-
-## Datos
-
-Crea una colección `productos` en Firestore con documentos que contengan:
-- `nombre`: string
-- `descripcion`: string
-- `precio`: number
-- `imagen`: string (URL)
+Agregar configuración de Firebase en `firebaseConfig.js`.
