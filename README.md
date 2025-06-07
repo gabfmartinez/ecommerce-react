@@ -1,6 +1,6 @@
 # E-commerce React
 
-Este proyecto es una tienda online básica construida con React y Firebase.
+Este proyecto es una tienda online construida con React y Firebase.
 
 ## Páginas
 
