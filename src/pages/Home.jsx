@@ -2,6 +2,12 @@ import { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebaseConfig";
 import ProductCard from "../components/ProductCard.jsx";
+import { getFirestore } from "firebase/firestore";
+
+export default function Home() {
+  const db = getFirestore();
+  return <div>Home Page</div>;
+}
 
 const Home = () => {
   const [productos, setProductos] = useState([]);
